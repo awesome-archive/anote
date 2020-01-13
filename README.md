@@ -1,47 +1,49 @@
+## This project is not maintained anymore...
+
 ### ANote
 
-a simple opensource note app(only support markdown :)).
+A simple opensource note app(support markdown only :) ).
 
-**note: now only support mac**
+**Note: Only support mac for now**
 
-[![quick_note.gif](http://s21.postimg.org/9pke2wjiv/quick_note.gif)](http://postimg.org/image/8aite6ifn/)
+[![quick_note.gif](https://i.imgur.com/k5YrBHc.gif)](https://i.imgur.com/k5YrBHc.gif)
 
-[![past_image.gif](http://s15.postimg.org/kdk0dn2aj/past_image.gif)](http://postimg.org/image/4fbani82f/)
+[![past_image.gif](https://i.imgur.com/wg5Flr1.gif)](http://i.imgur.com/wg5Flr1.gif)
 
-[![past_html.gif](http://s10.postimg.org/3sa87qn2x/past_html.gif)](http://postimg.org/image/q48114m6t/)
+[![past_html.gif](https://i.imgur.com/sg0qa3I.gif)](https://i.imgur.com/sg0qa3I.gif)
 
-[![export_as_pdf.gif](http://s21.postimg.org/5p2q0rz5z/export_as_pdf.gif)](http://postimg.org/image/p6xdgpw3n/)
 
-### Feature
+### Features
 
 - markdown friendly
-- past image
-- past html (include fetch image locally)
+- paste image
+- paste html (include fetching image locally)
 - export markdown file with images
-- export pdf file
+- export PDF
 - support tray menu quick note(inspired by evernote)
-- default `cmd+v` will convert html to markdown, and you can press `alt+v` to past as text(not convert html to markdown)
+- default `cmd+v` will convert html to markdown, and `alt+v` for pasting as plain text(not convert html to markdown)
 
 ### Goal
 
-Just need a good note. and want you to enjoying writing.
-know where is my data (~/anote).
+Just need a good note. And want you to enjoy writing.
+
+Know where is my data (~/anote).
 
 ### Todo
 
 -	write a chrome plugin for 'bookmark' article (support to markdown or just html)
--	backend server (I think use mongodb nodejs/ruby) for sync (I hope user can deploy it easily)
+-	backend server (I may use mongodb with nodejs/ruby) for sync (I hope users can deploy it easily)
 -	mobile app
--	add file storage feature
+-	add file storage features
 
 ### Inspired by
 
 -	Evernote
 -	Pandao editor (use the editor style, I like it)
 
-### Downloads
+### Download
 
-Go to [Release](https://pan.baidu.com/s/1dF3aAS5), then you can download anote app.
+Go to [Release](https://pan.baidu.com/s/1jI58ugu), then you can download anote app.
 
 ### Install/Build from source
 
@@ -54,7 +56,7 @@ npm run build
 npm run package
 ```
 
-**note: first install electron and babel and electron-packager and my node is 6.4**
+**Note: Install electron, babel and electron-packager first, and my node is 6.4**
 
 ### Run from source
 
@@ -62,15 +64,19 @@ npm run package
 npm run develop
 ```
 
-### Using stack
+### Tech stack
 
 -	Electron
 -	React
 -	Redux
 -	Babel
 -	Material Ui
--	jquery
+-	jQuery
+
+### Localization
+
+[中文](./chinese_readme)
 
 ### Join us
 
-if u like it, contact me wpcreep@gmail.com.we can do it togethor.
+If u like it, contact me at wpcreep@gmail.com. We can do it togethor.
